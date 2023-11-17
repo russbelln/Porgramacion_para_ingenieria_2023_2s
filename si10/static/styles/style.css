@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+    background-color: #333;
+    color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Añadido para centrar contenido verticalmente */
+    gap: 2rem;
+    font-size: 2rem;
+    font-family: 'Arial', sans-serif; /* Añadido para mejorar la legibilidad */
+}
+
+input,
+button {
+    font-size: 1.6rem; /* Ajustado el tamaño de la fuente para un aspecto más equilibrado */
+    padding: 1rem;
+    border-radius: 8px; /* Reducido el radio del borde para un aspecto más moderno */
+    border: none; /* Eliminado el borde para un aspecto más limpio */
+    cursor: pointer; /* Añadido el cursor pointer para indicar interactividad */
+    transition: background-color 0.3s ease; /* Añadida una transición de color de fondo */
+}
+
+input {
+    margin-bottom: 1rem; /* Añadido un espacio entre el input y el botón */
+}
+
+button {
+    background-color: #4CAF50; /* Color verde */
+    color: #fff; /* Texto blanco */
+}
+
+button:hover {
+    background-color: #45a049; /* Color verde oscuro en hover */
+}
